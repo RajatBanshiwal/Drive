@@ -1,0 +1,44 @@
+npm i express
+npm i ejs
+npm i express-validator 
+npm i mongoose
+npm i dotenv
+npm i bcrypt
+npm i jsonwebtoken
+npm i cookie-parser 
+npm i multer
+npm i cloudinary
+
+
+[  Cloudinary Response: {
+  asset_id: 'ba3758459cdb633ece8731f967296c7b',
+  public_id: 'drive/dyesxcghe4mqwwanvrrm',
+  version: 1733380483,
+  version_id: 'a91e14c8501724393b7bf8571f62f041',
+  signature: '791a34016283a10097a935203932252a747a0f05',
+  width: 1920,
+  height: 1080,
+  format: 'png',
+  resource_type: 'image',
+  created_at: '2024-12-05T06:34:43Z',
+  tags: [],
+  bytes: 2411497,
+  type: 'upload',
+  etag: '3a05712ac103276ac42e0cc94a09ce31',
+  placeholder: false,
+  url: 'http://res.cloudinary.com/drz7m0lzm/image/upload/v1733380483/drive/dyesxcghe4mqwwanvrrm.png',
+  secure_url: 'https://res.cloudinary.com/drz7m0lzm/image/upload/v1733380483/drive/dyesxcghe4mqwwanvrrm.png',
+  asset_folder: 'drive',
+  display_name: 'dyesxcghe4mqwwanvrrm',
+  original_filename: 'file-1733380480439',
+  api_key: '946333438326665'
+}
+File saved to DB: {
+  filename: '2020.png',
+  public_id: 'drive/dyesxcghe4mqwwanvrrm',
+  originalname: '2020.png',
+  user: new ObjectId('6750183618209111f5d36e0f'),
+  imgUrl: 'https://res.cloudinary.com/drz7m0lzm/image/upload/v1733380483/drive/dyesxcghe4mqwwanvrrm.png',
+  _id: new ObjectId('67514983604e05e98855b76a'),
+  __v: 0
+} ]
